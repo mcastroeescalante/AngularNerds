@@ -1,0 +1,22 @@
+post{
+    float: left;
+    padding: 20px 20px 0 20px;
+    .card-box{
+        padding-bottom: 0 !important;
+    }
+}
+
+.comments{
+    padding:0 20px 20px 20px;
+    background-color: cyan;
+}
+
+.comment{
+    padding: 20px;
+    .user{
+        padding: 2px 0 0 15px;
+    }
+}
+.container{
+    width: 600px;
+}

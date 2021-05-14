@@ -1,0 +1,11 @@
+<div class='card-box' *ngFor="let user of users">
+	<div class="card-title">
+		<H3>{{user.name}}</H3>
+	</div>
+	<div class="card-image">
+	</div>
+	<p>Dirección: {{user.address.street}}</p>
+	<div>
+		<span>{{user.company.name}}</span>
+	</div>
+</div>

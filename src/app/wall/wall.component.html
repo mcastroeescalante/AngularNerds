@@ -1,0 +1,3 @@
+<div class="wall">
+    <post *ngFor="let post of posts" [post]="post" [fromWall]="true" (postSelected)="onPostSelected($event)"></post>
+</div>

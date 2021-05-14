@@ -1,0 +1,16 @@
+.card-box {
+	border-radius: 6px;
+	background-color: #f3f3f3;
+	padding: 20px;
+	width: 600px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	box-shadow:5px 5px 5px -4px #70706F;
+	margin:0 10px 15px 10px;
+}
+.card-title{
+	font-size:18px;
+	line-height: 20px;
+	text-transform: uppercase;
+}

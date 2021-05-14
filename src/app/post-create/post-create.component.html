@@ -1,0 +1,9 @@
+<div class="container">
+    <label for="">Título</label>
+    <input [(ngModel)]="post.title" type="text" placeholder="Dale un título chiva a tu publicación...">
+
+    <label for="">Publicación</label>
+    <textarea [(ngModel)]="post.body" cols="30" rows="10" placeholder="Escribe aqui algo cool..."></textarea>
+
+    <button (click)="createPost()">Publicar</button>
+</div>
